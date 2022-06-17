@@ -2,16 +2,35 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-div:hover {
-  background-color: rgb(5, 141, 5);
+#uno:hover,
+#dos:hover,
+#tres:hover,
+#cuatro:hover {
+  background-color: #7ea021;
   font-size: 2.5rem;
   border-radius: 30px;
+}
+#uno:hover > .description,
+#dos:hover > .description,
+#tres:hover > .description,
+#cuatro:hover > .description {
+  right: 0;
+}
+.description {
+  text-transform: none;
+  height: 100%;
+  width: 200px;
+  font-size: 12px;
+  word-break: break-all;
+  position: relative;
+  /* transform: none; */
+  right: 150%;
 }
 
 div {
   background-color: green;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   font-size: 3rem;
   text-transform: uppercase;
@@ -19,33 +38,30 @@ div {
   position: absolute;
   overflow: hidden;
   transition: 0.3s ease-in-out;
+  padding-left: 15px;
 }
 
 body {
   position: relative;
 }
-
 #uno {
   width: 640px;
   height: 340px;
   top: 10px;
   left: 10px;
 }
-
 #dos {
   width: 640px;
   height: 340px;
   top: 10px;
   left: 660px;
 }
-
 #tres {
   width: 640px;
   height: 340px;
   top: 360px;
   left: 10px;
 }
-
 #cuatro {
   width: 640px;
   height: 340px;
