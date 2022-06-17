@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  position: absolute;
+}
+
+body {
+  position: relative;
+}
+
+#uno {
+  width: 640px;
+  height: 340px;
+  top: 10px;
+  left: 10px;
+}
+
+#dos {
+  width: 640px;
+  height: 340px;
+  top: 10px;
+  left: 660px;
+}
+
+#tres {
+  width: 640px;
+  height: 340px;
+  top: 360px;
+  left: 10px;
+}
+
+#cuatro {
+  width: 640px;
+  height: 340px;
+  top: 360px;
+  left: 660px;
+}
